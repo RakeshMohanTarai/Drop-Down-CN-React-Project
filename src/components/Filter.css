@@ -1,0 +1,49 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    cursor: pointer; /* Add cursor pointer for the entire container */
+  }
+  
+  .filter-item {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 8px;
+  }
+  
+  /* Add background color and hover effect for input and select elements */
+  input,
+  select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    cursor: pointer; /* Add cursor pointer for input and select */
+  }
+  
+  input:hover,
+  select:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Add more styling for better appearance */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  option {
+    padding: 8px;
+  }
+  
+  #price {
+    cursor: auto;
+  }

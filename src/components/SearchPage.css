@@ -1,0 +1,29 @@
+.search-page-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  input,
+  button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  input:hover,
+  button:hover {
+    background-color: #f0f0f0;
+  }
+
+  #Search {
+    cursor:auto;
+  }
+  
